@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina web</title>
+</head>
+
+<body>
+    <div>
+        <h1>Mi pagina web</h1>
+        <p>Bienvenido a mi primera pagina web</p>
+        <hr>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Mis gustos</a></li>
+            <li><a href="#">Estudios</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>¿Quien soy?</h2>
+            <p>Mi nombre es Miguel Raziel Jesus Fernandez Pascual</p>
+            <p>
+                <a target="_blank" href="https://github.com/Maxrealms2002/Programacion-Web">Mi repositorio en github</a>
+            </p>
+            <figure>
+                <a target="_blank" href="https://github.com/Maxrealms2002/Programacion-Web"> <img
+                        src="images/Github-Logo.png" alt="Logo de github" width="500" height="300"></a>
+                <figcaption>Octocat Logo</figcaption>
+            </figure>
+
+            <p>Lo mas importante es <em>nunca darse por vencido</em></p>
+            <p><strong>Precaucion:</strong> Piso resbaloso</p>
+            <figure>
+                <img src="images/precaucion.jpg" alt="Señal de precaucion">
+                <legend>Señal de Precaucion</legend>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Conoce mas sobre mi</h2>
+            <h3>Cosas que me gustan:</h3>
+            <div title="Lista-Desordenada">
+                <ul>
+                    <li>Albondigas</li>
+                    <li>Color rojo</li>
+                    <li>Gatos</li>
+                </ul>
+            </div>
+            <figure>
+                <img src="images/albondigas.png" alt="Albondigas" width="500" height="300">
+                <figcaption>Cats <em> love </em> lasagna.</figcaption>
+            </figure>
+
+            <h3>Cosas que no me gustan:</h3>
+            <div title="Lista-Ordenada">
+                <ol>
+                    <li>Germinado</li>
+                    <li>Guayaba</li>
+                    <li>Galletas Emperador sabor limon</li>
+                </ol>
+            </div>
+            <figure>
+                <img src="images/guayaba.jpg" alt="Guayaba amarilla" width="300" height="300">
+                <figcaption>La guayaba <strong>No</strong> me gusta.</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>¿Que tanto sabes de mi?</h2>
+            <form action="https://freecatphotoapp.com/submit-cat-photo">
+
+
+                <fieldset>
+                    <legend>¿Cual es mi color favorito?</legend>
+                    <label>
+                        <input type="radio" id="rojo" name="rojo-azul" value="rojo" checked>Rojo
+                    </label>
+                    <label><input type="radio" id="azul" name="rojo-azul">azul</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>¿Que cosas me gustan?</legend>
+
+                    <input type="checkbox" id="albondigas" name="gustos" value="albondigas" checked>
+                    <label for="albondigas"> Albondigas </label>
+
+                    <input type="checkbox" id="germinado" name="gustos" value="germinado">
+                    <label for="germinado">Germinado</label>
+
+                    <input type="checkbox" id="gatos" name="gustos" value="gatos">
+                    <label for="gatos">Gatos</label>
+                </fieldset>
+
+                <input type="text" name="nombre" placeholder="Introduce tu nombre" required>
+
+                <button>Submit</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Una frase para recordar es:</h2>
+            <div>
+                <blockquote cite="https://forbes.es/emprendedores/5505/10-frases-de-bill-gates-que-cambiaran-tu-perspectiva-de-la-vida/">
+                    <q>No te compares con nadie en este mundo. Si lo haces, te estás insultando a ti mismo</q>
+                <figcaption><cite>Bill Gates</cite> - 2018</figcaption>
+                </blockquote>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p><small>Copyright, 2022</small> Miguel Fernandez <a
+                href="https://github.com/Maxrealms2002/Programacion-Web">Github Personal</a>
+    </footer>
+</body>
+
+</html>
