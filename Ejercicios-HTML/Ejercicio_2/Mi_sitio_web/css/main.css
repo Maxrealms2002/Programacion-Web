@@ -5,7 +5,7 @@ a {
 #cubierta {
   width: 940px;
   margin: 0px 15px 0px 15px;
-  background-color: rgb(63, 139, 171);
+  background-color: #E8F9FD;
   padding: 0px 15% 0px 15%;
 }
 
@@ -13,4 +13,23 @@ a {
     text-align: center;
     margin-right: 0px;
     margin-left: 0px;
+}
+
+header{
+    background-color: #79DAE8;
+    border-style: groove;
+    border-color: #0AA1DD;
+    border-radius: 15px;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+nav{
+    background: #0AA1DD;
+}
+
+nav a, nav a:visited{
+    color: #fff;
 }
