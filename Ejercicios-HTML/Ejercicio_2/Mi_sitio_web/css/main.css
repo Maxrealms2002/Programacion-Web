@@ -5,31 +5,43 @@ a {
 #cubierta {
   width: 940px;
   margin: 0px 15px 0px 15px;
-  background-color: #E8F9FD;
+  background-color: #e8f9fd;
   padding: 0px 15% 0px 15%;
 }
 
-#logo{
-    text-align: center;
-    margin-right: 0px;
-    margin-left: 0px;
+#logo {
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
-header{
-    background-color: #79DAE8;
-    border-style: groove;
-    border-color: #0AA1DD;
-    border-radius: 15px;
+header {
+  background-color: #79dae8;
+  border-style: groove;
+  border-color: #0aa1dd;
+  border-radius: 15px;
 }
 
-h1, h2 {
-    color: #fff;
+h1,
+h2 {
+  color: #fff;
 }
 
-nav{
-    background: #0AA1DD;
+nav {
+  background: #0aa1dd;
 }
 
-nav a, nav a:visited{
-    color: #fff;
+nav a,
+nav a:visited {
+  color: #fff;
+}
+
+nav a.selected,
+nav a:hover {
+  color: rgb(30, 60, 196);
+}
+
+body {
+  color: #808080;
+  background-color: #fff;
 }
