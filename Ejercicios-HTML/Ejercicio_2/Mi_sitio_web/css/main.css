@@ -134,6 +134,7 @@ transition-duration: 0.2s;
 #galeria img:hover{
 transform: scale(1.1);
 }
+
 /********************
 CUERPO
 ********************/
@@ -161,4 +162,18 @@ IMAGENES DE GALERIA
 ********************/
 img {
     max-width: 100%;
+}
+
+/********************
+Pagina Acerca de
+********************/
+img.foto-perfil{
+  display: block;
+  max-width: 155px;
+  margin: 0 auto 30px auto;
+  border-radius: 100%;
+}
+
+h3{
+  margin: 0 0 1em 0;
 }
