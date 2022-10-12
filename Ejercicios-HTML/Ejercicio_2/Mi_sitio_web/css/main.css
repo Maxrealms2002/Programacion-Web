@@ -2,6 +2,10 @@ a {
   text-decoration: none;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 #cubierta {
   width: 940px;
   margin: 0px 15px 0px 15px;
@@ -15,11 +19,24 @@ a {
   margin-left: 0px;
 }
 
+/********************
+ENCABEZADO
+********************/
 header {
   background-color: #79dae8;
   border-style: groove;
   border-color: #0aa1dd;
   border-radius: 15px;
+}
+
+/********************
+NAVEGACION
+********************/
+
+nav{
+    text-align: center;
+    padding: 10px 0px;
+    margin: 20px 0px 0px;
 }
 
 h1,
@@ -41,7 +58,35 @@ nav a:hover {
   color: rgb(30, 60, 196);
 }
 
+/********************
+PIE DE PAGINA
+********************/
+
+footer{
+    font-size: 0.75em;
+    text-align: center;
+    padding-top: 50px;
+    color: #ccc;
+}
+
+
+/********************
+CUERPO
+********************/
 body {
   color: #808080;
   background-color: #fff;
+}
+
+h1{
+    font-family: 'Courgette', cursive;
+    margin: 15px, 0px, 15px, 0px;
+    font-size: 1.75em;
+    font-weight: normal;
+}
+
+h2{
+    font-size: 1em;
+    margin: -13px, 0px, 0px;
+    font-weight: normal;
 }
