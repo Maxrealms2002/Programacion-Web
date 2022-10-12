@@ -93,11 +93,13 @@ footer{
     clear: both;
 }
 
-#icono-social{
+a.icono-social{
     width: 20px;
     height: 5px;
     margin: 0 5px 0 5px;
 }
+
+
 
 /********************
 REGLAS DE GALERIA
@@ -123,6 +125,14 @@ padding: 5%;
 font-size: 0.9em;
 color: #808080;
 background-color: #fff;
+}
+
+#galeria img{
+transition-duration: 0.2s;
+}
+
+#galeria img:hover{
+transform: scale(1.1);
 }
 /********************
 CUERPO
