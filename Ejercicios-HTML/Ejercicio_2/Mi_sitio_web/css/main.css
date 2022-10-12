@@ -13,12 +13,6 @@ body {
   padding: 0px 15% 0px 15%;
 }
 
-#logo {
-  text-align: center;
-  margin-right: 0px;
-  margin-left: 0px;
-}
-
 /********************
 ENCABEZADO
 ********************/
@@ -29,6 +23,20 @@ header {
   border-radius: 15px;
 }
 
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+
 /********************
 NAVEGACION
 ********************/
@@ -37,6 +45,21 @@ nav{
     text-align: center;
     padding: 10px 0px;
     margin: 20px 0px 0px;
+}
+
+nav{
+    font-weight: 800;
+    padding: 15px 8px 15px 8px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0 10px 0 10px;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
 }
 
 h1,
@@ -67,9 +90,40 @@ footer{
     text-align: center;
     padding-top: 50px;
     color: #ccc;
+    clear: both;
 }
 
+#icono-social{
+    width: 20px;
+    height: 5px;
+    margin: 0 5px 0 5px;
+}
 
+/********************
+REGLAS DE GALERIA
+********************/
+
+#galeria{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#galeria li{
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #fff;
+    color: #808080;
+}
+
+#galeria p{
+margin: 0;
+padding: 5%;
+font-size: 0.9em;
+color: #808080;
+background-color: #fff;
+}
 /********************
 CUERPO
 ********************/
@@ -89,4 +143,12 @@ h2{
     font-size: 1em;
     margin: -13px, 0px, 0px;
     font-weight: normal;
+}
+
+
+/********************
+IMAGENES DE GALERIA
+********************/
+img {
+    max-width: 100%;
 }
